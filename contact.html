@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - 我的网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="services.html">服务</a></li>
+            <li><a href="contact.html">联系我</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>联系我</h1>
+        <p>有任何问题或建议？欢迎与我联系！</p>
+        
+        <div class="contact-info">
+            <p><strong>📧 邮箱：</strong> your-email@example.com</p>
+            <p><strong>📱 电话：</strong> +86 123-4567-8900</p>
+            <p><strong>📍 地址：</strong> 您的城市，您的国家</p>
+        </div>
+
+        <h2>发送消息</h2>
+        <form>
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">邮箱：</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">消息：</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">发送</button>
+        </form>
+    </div>
+</body>
+</html>
